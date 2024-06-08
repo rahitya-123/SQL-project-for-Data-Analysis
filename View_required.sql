@@ -38,7 +38,7 @@ SELECT bet_id
 		WHEN currency = 'GBP'
 			THEN stake
 		WHEN currency = 'EUR'
-			THEN stake * 0.7
+			THEN stake * 0.8
 		END AS stake_in_GBP
 	,winnings
 	,date_placed
