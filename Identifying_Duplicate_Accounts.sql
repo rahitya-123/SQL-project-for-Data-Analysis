@@ -18,3 +18,4 @@ LEFT join Production.CustomerDetails CD2 ON CD1.last_name=CD2.last_name AND CD1.
 WHERE CD1.username!=CD2.username
 
 ) A;
+
