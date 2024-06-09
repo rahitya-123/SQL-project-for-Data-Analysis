@@ -18,4 +18,3 @@ HAVING customer_id IN (
 		, 6588737
 		, 6306383
 		);
-
